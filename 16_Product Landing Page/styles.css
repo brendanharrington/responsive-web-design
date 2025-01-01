@@ -1,0 +1,17 @@
+#nav-bar {
+  position: fixed;
+  top: 0; left: 0; bottom: 90vh; right: 0;
+  background-color: linen;
+}
+
+@media only screen and (max-width: 600px) {
+  #nav-bar {
+    background-color: green;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
